@@ -1,0 +1,11 @@
+name: First workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+     - name: first-greeting
+       run : echo" welcome to github actions pradnya"
+     - name: good bye
+       run:  echo"done_bye!"
+       
